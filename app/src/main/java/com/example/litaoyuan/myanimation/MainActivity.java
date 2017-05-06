@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        //第二次上传
+
+
     }
 
     @OnClick({R.id.tran, R.id.scale, R.id.rotate, R.id.alpha,R.id.tween})
