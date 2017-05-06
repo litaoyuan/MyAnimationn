@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:drawable="@mipmap/ic_launcher"
+        android:duration="1500"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="-1"
+        android:toDegrees="359"
+        android:visible="true"/>
+    <!--interpolator 设置转动速率，这里设置的是匀速转动-->
+    <!--android:drawable    需要进行旋转动画的图片-->
+    <!--android:fromDegrees  旋转的起始点(旋转开始的角度)-->
+    <!--android:toDegrees     旋转的结束点(旋转最终角度)-->
+    <!--andoird:pivotX       旋转点的X值(距离左侧的偏移量)-->
+    <!--android:pivotY旋转点的Y值(距离顶部的偏移量)-->
+    <!--android: visible这个好理解，就是图片初始的显示状态-->
+    <!--是set的话，属性android:interpolator就会失效-->
+</set>
